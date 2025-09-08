@@ -31,15 +31,32 @@ This repository contains a production-style **Power BI** report built on **Adven
 - **Top-N** ranking by Sales/Profit with dynamic threshold  
 - Contribution analysis to identify **margin drivers** and long-tail products
 
+## Dashboard Preview
+<p align="center">
+  <img src="https://github.com/MUrvesh-99/Adventureworks-powerbi/blob/main/AdventureWorks%20Reports_page-0003.jpg"
+       alt="AdventureWorks Power BI — Overview" width="900">
+</p>
+
 ### 3) Customers
 - Segmentation by **education**, **marital status**, **region** (if available in your model)  
 - Cohort-style views (e.g., **first purchase month**) and **AOV distribution**  
 - Indicators for **repeat purchase** behavior and high-value segments
-
+- 
+## Dashboard Preview
+<p align="center">
+  <img src="https://github.com/MUrvesh-99/Adventureworks-powerbi/blob/main/AdventureWorks%20Reports_page-0004.jpg"
+       alt="AdventureWorks Power BI — Overview" width="900">
+</p>
 ### 4) Geography
 - Interactive **map** with state/country rollups  
 - Regional **under/over-performance** vs. prior period  
 - Drillthrough to region detail (city/store) with context-preserving filters
+
+## Dashboard Preview
+<p align="center">
+  <img src="https://github.com/MUrvesh-99/Adventureworks-powerbi/blob/main/AdventureWorks%20Reports_page-0002.jpg"
+       alt="AdventureWorks Power BI — Overview" width="900">
+</p>
 
 ## DAX Measures (examples)
 > Keep measures small, composable, and well-named. Mark your Date table.
