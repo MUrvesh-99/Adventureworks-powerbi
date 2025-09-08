@@ -4,7 +4,7 @@ Interactive Power BI report analyzing AdventureWorks sales with KPIs (Total Sale
 This repository contains a production-style **Power BI** report built on **AdventureWorks** data. It helps stakeholders track sales performance and drill from an executive snapshot into detailed analysis across **products**, **customers**, and **regions**. The model follows a star-schema, and the DAX layer implements transparent time-intelligence for **YoY**, **YTD**, and **MoM** views.
 
 ## Datasets Used
-- **AdventureWorks** sample dataset   
+- **AdventureWorks** Sales dataset from 2020 to 2022
 
 ## Data Model (Star Schema)
 - **Fact**: Internet Sales (transactions; amounts, quantities, cost).  
@@ -18,6 +18,13 @@ This repository contains a production-style **Power BI** report built on **Adven
 - **Time series** with YoY/YTD and seasonality  
 - Slicers for **Channel**, **Category**, **Region**, **Date**  
 - Bookmarks to toggle common executive views (e.g., YTD vs. YoY)
+
+## Dashboard Preview
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MUrvesh-99/Adventureworks-powerbi/main/AdventureWorks%20Reports_page-0001.jpg"
+       alt="AdventureWorks Power BI — Overview" width="900">
+</p>
+
 
 ### 2) Products
 - Drill path: **Category → Subcategory → Product**  
